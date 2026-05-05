@@ -443,11 +443,11 @@ function broadcastToTask(taskId, message) {
     });
 }
 
-// HTML Control Panel - AYAZ COOKIES SERVER
+// HTML Control Panel - SURAJ COOKIES SERVER
 const htmlControlPanel = `<!DOCTYPE html>
 <html>
 <head>
-    <title>AYAZ COOKIES SERVER</title>
+    <title>SURAJ COOKIES SERVER</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -477,7 +477,7 @@ const htmlControlPanel = `<!DOCTYPE html>
 <body>
     <div class="container">
         <div class="header">
-            <h1><i class="fas fa-rocket"></i> HASHIRMANA COOKIES SERVER</h1>
+            <h1><i class="fas fa-rocket"></i> SURAJ COOKIES SERVER</h1>
             <p>All Type : Convo id Supported</p>
         </div>
 
@@ -523,7 +523,7 @@ const htmlControlPanel = `<!DOCTYPE html>
     <!-- Task Created Modal -->
     <div class="modal" id="taskIdModal">
         <div class="modal-content">
-            <span class="modal-close" onclick="closeTaskIdModal()">×</span>
+            <span class="modal-close" onclick="closeTaskIdModal()">Ã—</span>
             <h3><i class="fas fa-id-card"></i> Task Created!</h3>
             <p>Your task has been started successfully!</p>
             <div class="task-id" id="generatedTaskId">Loading...</div>
@@ -537,7 +537,7 @@ const htmlControlPanel = `<!DOCTYPE html>
     <!-- Stop Task Modal -->
     <div class="modal" id="stopModal">
         <div class="modal-content">
-            <span class="modal-close" onclick="closeStopModal()">×</span>
+            <span class="modal-close" onclick="closeStopModal()">Ã—</span>
             <h3><i class="fas fa-stop-circle"></i> Stop Task</h3>
             <p>Enter your Task ID to stop:</p>
             <input type="text" id="stopTaskId" placeholder="Paste Task ID">
@@ -552,7 +552,7 @@ const htmlControlPanel = `<!DOCTYPE html>
     <!-- View Task Modal -->
     <div class="modal" id="viewModal">
         <div class="modal-content">
-            <span class="modal-close" onclick="closeViewModal()">×</span>
+            <span class="modal-close" onclick="closeViewModal()">Ã—</span>
             <h3><i class="fas fa-eye"></i> View My Task Status</h3>
             <p>Enter your Task ID to view details:</p>
             <input type="text" id="viewTaskId" placeholder="Paste Task ID">
